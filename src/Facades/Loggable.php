@@ -1,6 +1,6 @@
 <?php
 
-namespace Alkhachatryan\LaravelLoggable\Facades;
+namespace LindaCarlstad\LaravelLoggable\Facades;
 
 use Illuminate\Database\Eloquent\Collection;
 

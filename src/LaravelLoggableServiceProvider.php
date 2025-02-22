@@ -1,8 +1,8 @@
 <?php
 
-namespace Alkhachatryan\LaravelLoggable;
+namespace LindaCarlstad\LaravelLoggable;
 
-use Alkhachatryan\LaravelLoggable\Accessors\Accessor;
+use LindaCarlstad\LaravelLoggable\Accessors\Accessor;
 use Illuminate\Support\ServiceProvider;
 
 class LaravelLoggableServiceProvider extends ServiceProvider

@@ -10,7 +10,7 @@
          stopOnFailure="false">
 
     <testsuites>
-        <testsuite name="alkhachatryan/laravel-loggable Test Suite">
+        <testsuite name="LindaCarlstad/laravel-loggable Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

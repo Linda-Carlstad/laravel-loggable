@@ -1,7 +1,6 @@
 # laravel-loggable
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/alkhachatryan/laravel-loggable.svg?style=flat-square)](https://packagist.org/packages/alkhachatryan/laravel-loggable)
 
 Laravel Loggable is a package for eloquent models, which will monitor the changes on the models and log.
 It suuports two drivers: File and Database.
@@ -17,7 +16,7 @@ It suuports two drivers: File and Database.
 
 # Installation
 ##### Install the package.
-`composer require alkhachatryan/laravel-loggable`
+`composer require LindaCarlstad/laravel-loggable`
 
 ##### Publish the configuration file
 `php artisan vendor:publish --tag=loggable`
@@ -64,15 +63,15 @@ LoggableModel::whereModelName('App\Post')->orderBy('id', 'DESC')->paginate(10);
 ```
 
 ##### Event
-You can use the event *Alkhachatryan\LaravelLoggable\Events\Logged* in pair with your listeners.
+You can use the event *LindaCarlstad\LaravelLoggable\Events\Logged* in pair with your listeners.
 
 # Changelog
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
 # Credits
 
-- [Alexey Khachatryan](https://github.com/alkhachatryan)
-- [All Contributors](https://github.com/alkhachatryan/laravel-loggable/contributors)
+- [Alexey Khachatryan](https://github.com/LindaCarlstad)
+- [All Contributors](https://github.com/LindaCarlstad/laravel-loggable/contributors)
 
 # Todo
 Tests!!! Tests!!! Tests!!!

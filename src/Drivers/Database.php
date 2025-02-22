@@ -1,8 +1,8 @@
 <?php
 
-namespace Alkhachatryan\LaravelLoggable\Drivers;
+namespace LindaCarlstad\LaravelLoggable\Drivers;
 
-use Alkhachatryan\LaravelLoggable\Models\LoggableModel;
+use LindaCarlstad\LaravelLoggable\Models\LoggableModel;
 
 class Database extends LoggerDriver
 {

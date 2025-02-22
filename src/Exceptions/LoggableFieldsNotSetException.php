@@ -1,6 +1,6 @@
 <?php
 
-namespace Alkhachatryan\LaravelLoggable\Exceptions;
+namespace LindaCarlstad\LaravelLoggable\Exceptions;
 
 use Exception;
 

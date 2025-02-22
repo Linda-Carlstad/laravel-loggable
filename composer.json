@@ -1,5 +1,5 @@
 {
-    "name": "alkhachatryan/laravel-loggable",
+    "name": "linda-carlstad/laravel-loggable",
     "description": "Laravel Loggable - Log your model changes in multiple ways.",
     "type": "package",
     "license": "MIT",
@@ -17,12 +17,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Alkhachatryan\\LaravelLoggable\\": "./src"
+            "LindaCarlstad\\LaravelLoggable\\": "./src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Alkhachatryan\\LaravelLoggable\\Tests\\": "tests"
+            "LindaCarlstad\\LaravelLoggable\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -31,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Alkhachatryan\\LaravelLoggable\\LaravelLoggableServiceProvider"
+                "LindaCarlstad\\LaravelLoggable\\LaravelLoggableServiceProvider"
             ]
         }
     },

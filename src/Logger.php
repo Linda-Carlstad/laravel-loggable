@@ -1,9 +1,9 @@
 <?php
 
-namespace Alkhachatryan\LaravelLoggable;
+namespace LindaCarlstad\LaravelLoggable;
 
-use Alkhachatryan\LaravelLoggable\Events\Logged;
-use Alkhachatryan\LaravelLoggable\Exceptions\LoggableFieldsNotSetException;
+use LindaCarlstad\LaravelLoggable\Events\Logged;
+use LindaCarlstad\LaravelLoggable\Exceptions\LoggableFieldsNotSetException;
 use Illuminate\Support\Facades\Auth;
 
 class Logger
@@ -93,10 +93,10 @@ class Logger
         $this->user = Auth::user();
 
         $this->driver = new \stdClass();
-        $this->driver->file = new \Alkhachatryan\LaravelLoggable\Drivers\File(
+        $this->driver->file = new \LindaCarlstad\LaravelLoggable\Drivers\File(
             $this->model, $this->action, $this->config, $this->user, $this->loggable_fields
         );
-        $this->driver->database = new \Alkhachatryan\LaravelLoggable\Drivers\Database(
+        $this->driver->database = new \LindaCarlstad\LaravelLoggable\Drivers\Database(
             $this->model, $this->action, $this->config, $this->user, $this->loggable_fields
         );
 

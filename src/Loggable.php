@@ -1,8 +1,8 @@
 <?php
 
-namespace Alkhachatryan\LaravelLoggable;
+namespace LindaCarlstad\LaravelLoggable;
 
-use Alkhachatryan\LaravelLoggable\Exceptions\LoggableFieldsNotSetException;
+use LindaCarlstad\LaravelLoggable\Exceptions\LoggableFieldsNotSetException;
 
 trait Loggable
 {

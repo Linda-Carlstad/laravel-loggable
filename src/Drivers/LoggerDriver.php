@@ -1,6 +1,6 @@
 <?php
 
-namespace Alkhachatryan\LaravelLoggable\Drivers;
+namespace LindaCarlstad\LaravelLoggable\Drivers;
 
 abstract class LoggerDriver
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Alkhachatryan\LaravelLoggable\Models;
+namespace LindaCarlstad\LaravelLoggable\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

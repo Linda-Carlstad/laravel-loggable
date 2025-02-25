@@ -1,6 +1,6 @@
 <?php
 
-namespace Alkhachatryan\LaravelLoggable\Events;
+namespace LindaCarlstad\LaravelLoggable\Events;
 
 class Logged
 {

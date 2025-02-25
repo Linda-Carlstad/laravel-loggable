@@ -1,6 +1,6 @@
 <?php
 
-namespace Alkhachatryan\LaravelLoggable\Tests;
+namespace LindaCarlstad\LaravelLoggable\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -16,7 +16,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            \Alkhachatryan\LaravelLoggable\LaravelLoggableServiceProvider::class,
+            \LindaCarlstad\LaravelLoggable\LaravelLoggableServiceProvider::class,
         ];
     }
 

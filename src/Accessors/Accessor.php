@@ -1,8 +1,8 @@
 <?php
 
-namespace Alkhachatryan\LaravelLoggable\Accessors;
+namespace LindaCarlstad\LaravelLoggable\Accessors;
 
-use Alkhachatryan\LaravelLoggable\Models\LoggableModel;
+use LindaCarlstad\LaravelLoggable\Models\LoggableModel;
 use Illuminate\Database\Eloquent\Collection;
 
 class Accessor
